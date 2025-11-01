@@ -20,3 +20,8 @@ Create	Yeni not oluşturma ve veritabanına ekleme
 Read	Not listesini kullanıcıya göre çekme
 Update	Var olan bir notu güncelleme
 Delete	Notu önce local veritabanından sonra API’den silme
+
+API'yi çalıştırmak içi şu 3 komut sırayla çalıştırılmalıdır;
+1- Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+2-venv\Scripts\activate   
+3- uvicorn main:app --reload   
