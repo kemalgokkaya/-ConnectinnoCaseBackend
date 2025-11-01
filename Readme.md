@@ -1,0 +1,1 @@
+Back-End içerisinde kullanıcı bazlı notlar tutulması için mobilden kullanıcı id sini gönderdim. Kullanıcı yönetimini firebase üzerinden yaptığımız için güvenilir yöntem olarak aslında api üzerinden doğrulama yapılması gerekir ancak test case için mobilden direkt göndererek yaptım.
